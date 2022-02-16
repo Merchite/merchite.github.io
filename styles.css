@@ -83,16 +83,19 @@ nav ul li a {
 }
 
 main {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     position: relative;
     top: 69px;
 }
 
 .hero {
+    background-image: url(media/img-mission-background.jpg);
     height: 700px;
-    overflow: hidden;
-    display: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: inherit;
 }
 
 .hero-text {
@@ -124,3 +127,24 @@ main {
     height: 200px;
     width: 300px;
 }
+
+/* Locations Styling */
+.locations {
+    position: relative;
+    top: 150px;
+    background-image: url(media/img-locations-background.webp);
+    
+}
+.container-locations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.location {
+    flex-basis: 300px;
+    background-color: black ;
+    
+}
+
+/* Footer Styling */
