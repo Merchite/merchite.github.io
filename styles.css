@@ -1,0 +1,119 @@
+* {
+
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 5px;
+    padding: 5px;
+}
+
+header {
+    position: fixed;
+    margin: 0;
+    padding: 9px 10px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.flex-item {
+    
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    align-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: underline;
+    color: seashell;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 69px;
+}
+
+.hero {
+    height: 700px;
+    overflow: hidden;
+}
+
+.hero-text {
+    height: 100px;
+    position: absolute;
+    top: calc(50% - 50px);
+    background-color: black;
+    width: 100%;
+}
+
+.tea-month {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+.container-images {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.tea-month-image {
+    flex: 1 1 33.33%;
+    
+}
+
+.tea-month-image img {
+    height: 200px;
+    width: 300px;
+}
