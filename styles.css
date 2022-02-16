@@ -1,6 +1,8 @@
-* {
-
+* { 
+    
 }
+
+/* Universal Styling */
 
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -17,6 +19,8 @@ h1, h2, h3, h4, h5, p {
     padding: 5px;
 }
 
+/* Header & Navigation Styling */
+
 header {
     position: fixed;
     margin: 0;
@@ -27,15 +31,6 @@ header {
     border-bottom: 1px solid seashell;
     background-color: black;
     z-index: 1;
-}
-
-.container {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-.flex-item {
-    
 }
 
 .logo {
@@ -76,6 +71,17 @@ nav ul li a {
     padding: 0;
 }
 
+/* Main Styling */
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.flex-item {
+    
+}
+
 main {
     width: 90%;
     margin: 0 auto;
@@ -86,6 +92,7 @@ main {
 .hero {
     height: 700px;
     overflow: hidden;
+    display: inherit;
 }
 
 .hero-text {
