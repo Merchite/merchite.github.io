@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, p {
 header {
     position: fixed;
     margin: 0;
-    padding: 9px 10px;
+    padding: 0;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -79,7 +79,7 @@ nav ul li a {
 }
 
 .flex-item {
-    
+    padding: 9px 10px;
 }
 
 main {
@@ -109,8 +109,7 @@ main {
 .tea-month {
     width: 1000px;
     margin: 0 auto;
-    position: relative;
-    top: 50px;
+    padding: 50px 0;
 }
 
 .container-images {
@@ -129,22 +128,51 @@ main {
 }
 
 /* Locations Styling */
+
 .locations {
-    position: relative;
-    top: 150px;
     background-image: url(media/img-locations-background.webp);
-    
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 50px 0;
 }
+
+.locations-centered {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100%;
+}
+
 .container-locations {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 5px;
 }
 
 .location {
     flex-basis: 300px;
+    height: 200px;
+    vertical-align: middle;
     background-color: black ;
     
 }
 
 /* Footer Styling */
+footer {
+    position: relative;
+    top: 70px;
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    position: relative;
+    top: 69px;
+    margin-left: 20px;
+    font-size: 16px;
+}
