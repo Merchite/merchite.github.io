@@ -78,7 +78,7 @@ nav ul li a {
     flex-flow: row nowrap;
 }
 
-.flex-item {
+.flex-item-header {
     padding: 9px 10px;
 }
 
